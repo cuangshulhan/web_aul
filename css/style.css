@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+/* TODO WEBSITE */
 body {
   background-color: #ececec;
   font-family: Poppins;
@@ -105,7 +106,14 @@ body {
   border: 2px solid #e4b373;
   margin-left: 23px;
   margin-top: -5px;
+}
+
+.judul_baris div .garis.produk {
   width: 95px;
+}
+
+.judul_baris div .garis.harga {
+  width: 80px;
 }
 
 .judul_baris div .span3 {
@@ -173,6 +181,77 @@ body {
   margin-right: 23px;
 }
 
+.item_promo {
+  width: 120%;
+  margin-top: 20px;
+}
+
+.item_promo .div1 {
+  width: 252px;
+  height: 320px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  margin-left: 18px;
+  margin-right: 20px;
+}
+
+.item_promo img {
+  width: 252px;
+  height: 235px;
+}
+
+.item_promo .div2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item_promo .title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.item_promo .div3 {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.item_promo .div4 {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+.item_promo .promo {
+  font-size: 14px;
+  font-weight: 300;
+  color: #808080;
+}
+
+.item_promo .coret {
+  border: 1px solid #808080;
+  width: 80px;
+  float: right;
+  margin-right: 170px;
+  margin-top: -12px;
+}
+
+.item_promo .harga {
+  font-size: 18px;
+  font-weight: 300;
+  color: #c9944f;
+}
+
+.item_promo a {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #e4b373;
+  color: white;
+  border-radius: 8px;
+  float: right;
+  margin-right: 23px;
+  margin-top: -10px;
+}
+
 .wrapper {
   /*background:#EFEFEF; */
   /*box-shadow: 1px 1px 10px #999; */
@@ -204,6 +283,7 @@ body {
   vertical-align: top;
 }
 
+/* TODO POTRAIT PHONES */
 @media (max-width: 575.98px) {
   .website {
     display: none;
@@ -215,7 +295,7 @@ body {
 
   #header_mobile {
     height: 55px;
-    width: 105%;
+    width: 103%;
     margin-top: -12px;
     background-color: white;
   }
@@ -240,13 +320,13 @@ body {
 
   #header_mobile div .span1 {
     font-weight: 400;
-    font-size: 10.5px;
+    font-size: 11px;
     color: #c9944f;
   }
 
   #header_mobile div .span2 {
     font-weight: 500;
-    font-size: 10.5px;
+    font-size: 11px;
     color: #c9944f;
   }
 
@@ -275,7 +355,14 @@ body {
     border: 2px solid #e4b373;
     margin-left: 20px;
     margin-top: 1px;
+  }
+
+  .judul_baris div .garis.produk {
     width: 59px;
+  }
+
+  .judul_baris div .garis.harga {
+    width: 50px;
   }
 
   .judul_baris div .span3 {
@@ -346,6 +433,79 @@ body {
     margin-right: 6px;
   }
 
+  .item_promo {
+    width: 1170px; /*325%; */
+    margin-top: 20px;
+  }
+
+  .item_promo .div1 {
+    width: 158px;
+    height: 210px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+
+  .item_promo img {
+    width: 158px;
+    height: 150px;
+  }
+
+  .item_promo .div2 {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 0px;
+  }
+
+  .item_promo .title {
+    font-size: 9px;
+    font-weight: 400;
+  }
+
+  .item_promo .div3 {
+    margin-left: 6px;
+    margin-top: -5px;
+  }
+
+  .item_promo .div4 {
+    margin-left: 6px;
+    margin-top: -15px;
+  }
+
+  .item_promo .promo {
+    font-size: 9px;
+    font-weight: 300;
+    color: #808080;
+  }
+
+  .item_promo .coret {
+    border: 1px solid #808080;
+    width: 50px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -11px;
+  }
+
+  .item_promo .harga {
+    font-size: 11px;
+    font-weight: 300;
+    color: #c9944f;
+  }
+
+  .item_promo a {
+    font-size: 10px;
+    font-weight: 500;
+    width: 80px;
+    height: 28px;
+    background-color: #e4b373;
+    color: white;
+    border-radius: 8px;
+    float: right;
+    margin-right: 6px;
+    margin-top: -8px;
+  }
+
   .scrolls {
     overflow-x: scroll;
     overflow-y: hidden;
@@ -399,6 +559,7 @@ body {
   }
 }
 
+/* TODO LANDSCAPE PHONES */
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 800px) {
   .website {
@@ -470,7 +631,14 @@ body {
     border: 2px solid #e4b373;
     margin-left: 20px;
     margin-top: 1px;
+  }
+
+  .judul_baris div .garis.produk {
     width: 78px;
+  }
+
+  .judul_baris div .garis.harga {
+    width: 69px;
   }
 
   .judul_baris div .span3 {
@@ -539,6 +707,79 @@ body {
     border-radius: 8px;
     float: right;
     margin-right: 20px;
+  }
+
+  .item_promo {
+    width: 1750px; /*230%; */
+    margin-top: 30px;
+  }
+
+  .item_promo .div1 {
+    width: 250px;
+    height: 350px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+
+  .item_promo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .item_promo .div2 {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .item_promo .title {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .item_promo .div3 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .item_promo .div4 {
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+
+  .item_promo .promo {
+    font-size: 14px;
+    font-weight: 300;
+    color: #808080;
+  }
+
+  .item_promo .coret {
+    border: 1px solid #808080;
+    width: 75px;
+    float: right;
+    margin-right: 173px;
+    margin-top: -12px;
+  }
+
+  .item_promo .harga {
+    font-size: 18px;
+    font-weight: 300;
+    color: #c9944f;
+  }
+
+  .item_promo a {
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    height: 35px;
+    background-color: #e4b373;
+    color: white;
+    border-radius: 8px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -8px;
   }
 
   .scrolls {
