@@ -294,7 +294,7 @@ body {
   }
 
   .item_produk {
-    width: 1500px;
+    width: 1200px; /*325%; */
     margin-top: 20px;
   }
 
