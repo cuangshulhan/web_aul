@@ -116,6 +116,10 @@ body {
   width: 80px;
 }
 
+.judul_baris div .garis.rekomendasi {
+  width: 160px;
+}
+
 .judul_baris div .span3 {
   font-size: 20px;
   font-weight: 500;
@@ -131,8 +135,9 @@ body {
 }
 
 .item_produk {
-  width: 120%;
+  width: 1750px;
   margin-top: 20px;
+  margin-right: 40px;
 }
 
 .item_produk .div1 {
@@ -182,7 +187,7 @@ body {
 }
 
 .item_promo {
-  width: 120%;
+  width: 1750px;
   margin-top: 20px;
 }
 
@@ -365,6 +370,10 @@ body {
     width: 50px;
   }
 
+  .judul_baris div .garis.rekomendasi {
+    width: 100px;
+  }
+
   .judul_baris div .span3 {
     font-size: 12px;
     font-weight: 500;
@@ -383,6 +392,7 @@ body {
   .item_produk {
     width: 1170px; /*325%; */
     margin-top: 20px;
+    margin-right: -22px;
   }
 
   .item_produk .div1 {
@@ -659,6 +669,7 @@ body {
   .item_produk {
     width: 1750px; /*230%; */
     margin-top: 30px;
+    margin-right: 0px;
   }
 
   .item_produk .div1 {
@@ -838,7 +849,8 @@ body {
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 801px) and (max-width: 991.98px) {
   .item_produk {
-    width: 190%;
+    width: 1750px;
     margin-top: 20px;
+    margin-right: 160px;
   }
 }
