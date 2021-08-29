@@ -84,6 +84,29 @@ body {
   margin-bottom: 15px;
 }
 
+.detail_produk {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.detail_produk div {
+  margin-top: 14px;
+  font-size: 32px;
+}
+
+.detail_produk div .span1 {
+  font-weight: 500;
+}
+
+.detail_produk div .garis {
+  border: 2px solid #e4b373;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5px;
+  width: 235px;
+}
+
 .judul_baris {
   margin-top: 30px;
 }
@@ -152,6 +175,7 @@ body {
 .item_produk img {
   width: 252px;
   height: 235px;
+  border-radius: 12px;
 }
 
 .item_produk .div2 {
@@ -203,6 +227,7 @@ body {
 .item_promo img {
   width: 252px;
   height: 235px;
+  border-radius: 12px;
 }
 
 .item_promo .div2 {
@@ -288,6 +313,105 @@ body {
   vertical-align: top;
 }
 
+#detail {
+	width: 98%;
+}
+
+#detail .divImage{
+	margin-right: -1%;
+}
+
+#detail .divImage img{
+	width: 100%; 
+	min-height: 500px; 
+	margin-left: 60px;
+	border-radius: 12px;
+}
+
+#detail .divDetail{
+	background-color: #e4b373; 
+	border-radius: 12px; 
+	padding-left: 40px; 
+	padding-top: 22px; 
+}
+
+#detail .title{
+	font-size: 24px; 
+	font-weight: 500;
+}
+
+#detail .diskon{
+	margin-left: -14px; 
+	margin-top: 12px;
+}
+
+#detail .diskon span{
+	font-size: 20px; 
+	font-weight: 300; 
+	color: #808080;
+}
+
+#detail .diskon hr{
+	border: 1px solid #808080;
+	width: 105px;
+	margin-left: 0px;
+	margin-top: -15px;
+}
+
+#detail .harga{
+	margin-left: -14px; 
+	margin-top: 7px;
+}
+
+#detail .harga span{
+	font-size: 30px; 
+	font-weight: 300; 
+	color: #FFFFFF;
+}
+
+#detail .ukuran{
+	
+	margin-top: 12px; 
+	text-align: center;
+}
+
+#detail .ukuran span{
+	font-size: 20px; 
+	font-weight: 400;
+}
+
+#detail .pesan{
+	margin-top: 10px; 
+	text-align: center;
+}
+
+#detail .pesan span{
+	font-size: 20px; 
+	font-weight: 400;
+}
+
+#detail .title_desk{
+	margin-left: -14px; 
+	margin-top: 12px;
+}
+
+#detail .title_desk span{
+	font-size: 20px; 
+	font-weight: 400;
+}
+
+#detail .deskripsi{
+	margin-left: -14px; 
+	margin-top: 12px; 
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+#detail .deskripsi span{
+	font-size: 14px; 
+	font-weight: 400;
+}
+
 /* TODO POTRAIT PHONES */
 @media (max-width: 575.98px) {
   .website {
@@ -360,6 +484,10 @@ body {
     border: 2px solid #e4b373;
     margin-left: 20px;
     margin-top: 1px;
+  }
+
+  .judul_baris div .garis.detail {
+    width: 110px;
   }
 
   .judul_baris div .garis.produk {
@@ -540,6 +668,7 @@ body {
     width: 300px;
     height: 60px;
     border-radius: 12px;
+    border: 2px solid  #ececec;
   }
 
   #bottom_navigation_bar2 a {
@@ -567,11 +696,118 @@ body {
     color: #e4b373;
     font-weight: 500;
   }
+
+   .detail_produk_mobile {
+	  background-color: white; 
+	  height: 70px; 
+	  margin-top: -30px;
+	}
+
+   .detail_produk_mobile .judul_baris {
+	  margin-left: 10px;
+	}
+
+   .detail_produk_mobile .judul_baris .divImage {
+	  margin-top: 20px;
+	}
+   .detail_produk_mobile img {
+	  width: 9.26px; 
+	  height: 15.5px;
+	}
+
+	#detail_mobile {
+		margin-left: 15px; 
+		width: 92.7%; 
+		min-height: 449px; 
+		background-color: #e4b373;
+		margin-top: -30px; 
+		border-top-right-radius:  30px; 
+		border-top-left-radius : 30px;
+		border-bottom-right-radius:  12px; 
+		border-bottom-left-radius : 12px;
+		padding-top: 22px;
+	}
+
+	#detail_mobile .title{
+		margin-left: 10px; 
+		font-size: 18px; 
+		font-weight: 500;
+	}
+
+	#detail_mobile .diskon{
+		margin-top: 21px; 
+		margin-right: -20px;
+	}
+
+	#detail_mobile .diskon span{
+		font-size: 18px; 
+		font-weight: 300; 
+		color: #808080;
+	}
+
+	#detail_mobile .diskon hr{
+		margin-top: -15px; 
+		border: 2px solid #808080; 
+		width: 95px; 
+		margin-left: 0px;
+	}
+
+	#detail_mobile .harga{
+		margin-top: 16px;
+		font-size: 24px; 
+		font-weight: 300; 
+		color: #FFFFFF
+	}
+
+	#detail_mobile .harga span{
+		font-size: 30px; 
+		font-weight: 300; 
+		color: #FFFFFF;
+	}
+
+	#detail_mobile .ukuran{
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	#detail_mobile .ukuran span{
+		font-size: 17px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .pesan{
+		font-size: 14px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .pesan span{
+		font-size: 17px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .title_desk{
+		margin-top: 20px;
+	}
+
+	#detail_mobile .title_desk span{
+		font-size: 17px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .deskripsi{
+		margin-bottom: 10px;
+		text-align: justify;
+	}
+
+	#detail_mobile .deskripsi span{
+		font-size: 14px; 
+		font-weight: 400;
+	}
 }
 
 /* TODO LANDSCAPE PHONES */
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 800px) {
+@media (min-width: 580px) and (max-width: 800px) {
   .website {
     display: none;
   }
@@ -642,6 +878,10 @@ body {
     margin-left: 20px;
     margin-top: 1px;
   }
+
+  .judul_baris div .garis.detail {
+    width: 145px;
+  }	
 
   .judul_baris div .garis.produk {
     width: 78px;
@@ -844,6 +1084,114 @@ body {
     color: #e4b373;
     font-weight: 500;
   }
+
+  .detail_produk_mobile {
+	  background-color: white; 
+	  height: 70px; 
+	  margin-top: -30px;
+	}
+
+   .detail_produk_mobile .judul_baris {
+	  margin-left: 10px;
+	}
+
+   .detail_produk_mobile .judul_baris .divImage {
+	  margin-top: 20px;
+	  margin-right: 60px;
+	}
+   .detail_produk_mobile img {
+	  width: 9.26px; 
+	  height: 15.5px;
+	}
+
+	#detail_mobile {
+		margin-left: 15px; 
+		width: 96.2%; 
+		min-height: 449px; 
+		background-color: #e4b373;
+		margin-top: -30px; 
+		border-top-right-radius:  30px; 
+		border-top-left-radius : 30px;
+		border-bottom-right-radius:  12px; 
+		border-bottom-left-radius : 12px;
+		padding-top: 22px;
+	}
+
+	#detail_mobile .title{
+		margin-left: 10px; 
+		font-size: 24px; 
+		font-weight: 500;
+	}
+
+	#detail_mobile .diskon{
+		margin-top: 21px; 
+		margin-right: -20px;
+	}
+
+	#detail_mobile .diskon span{
+		font-size: 20px; 
+		font-weight: 300; 
+		color: #808080;
+	}
+
+	#detail_mobile .diskon hr{
+		margin-top: -15px; 
+		border: 2px solid #808080; 
+		width: 95px; 
+		margin-left: 0px;
+	}
+
+	#detail_mobile .harga{
+		margin-top: 16px;
+		font-size: 26px; 
+		font-weight: 300; 
+		color: #FFFFFF
+	}
+
+	#detail_mobile .harga span{
+		font-size: 30px; 
+		font-weight: 300; 
+		color: #FFFFFF;
+	}
+
+	#detail_mobile .ukuran{
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	#detail_mobile .ukuran span{
+		font-size: 17px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .pesan{
+		font-size: 14px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .pesan span{
+		font-size: 17px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .title_desk{
+		margin-top: 20px;
+	}
+
+	#detail_mobile .title_desk span{
+		font-size: 17px; 
+		font-weight: 400;
+	}
+
+	#detail_mobile .deskripsi{
+		margin-bottom: 10px;
+		text-align: justify;
+	}
+
+	#detail_mobile .deskripsi span{
+		font-size: 14px; 
+		font-weight: 400;
+	}
 }
 
 /*// Medium devices (tablets, 768px and up)*/
