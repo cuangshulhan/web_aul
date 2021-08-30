@@ -6,6 +6,35 @@ body {
   font-family: Poppins;
 }
 
+.carousel-indicators li {
+    background-color: #ececec;
+}
+
+.carousel-indicators .active{
+    background-color: #e4b373;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #e4b373;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #e4b373;
+}
+
 .mobile {
   display: none;
 }
@@ -319,12 +348,13 @@ body {
 
 #detail .divImage {
   margin-right: -1%;
+  margin-left: -40px;
+  margin-right: 15px;
 }
 
 #detail .divImage img {
   width: 100%;
-  min-height: 500px;
-  margin-left: 60px;
+  height: 550px;
   border-radius: 12px;
 }
 
@@ -716,7 +746,7 @@ body {
 
   #detail_mobile {
     margin-left: 15px;
-    width: 92.7%;
+    width: 92.9%;
     min-height: 449px;
     background-color: #e4b373;
     margin-top: -30px;
