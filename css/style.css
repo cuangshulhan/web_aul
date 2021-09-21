@@ -727,6 +727,7 @@ body {
 
   .detail_produk_mobile {
     background-color: white;
+    width: 99.3%;
     height: 70px;
     margin-top: -30px;
   }
