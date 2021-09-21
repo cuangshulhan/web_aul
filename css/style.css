@@ -7,11 +7,11 @@ body {
 }
 
 .carousel-indicators li {
-    background-color: #ececec;
+  background-color: #ececec;
 }
 
-.carousel-indicators .active{
-    background-color: #e4b373;
+.carousel-indicators .active {
+  background-color: #e4b373;
 }
 
 .carousel-control-prev-icon,
@@ -22,15 +22,14 @@ body {
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
+.carousel-control-next-icon:after {
+  content: ">";
   font-size: 55px;
   color: #e4b373;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: "<";
   font-size: 55px;
   color: #e4b373;
 }
@@ -836,6 +835,18 @@ body {
     font-size: 14px;
     font-weight: 400;
   }
+
+  div.modal-body li {
+    color: #000000;
+    font-weight: 500;
+  }
+
+  div.modal-body li.active {
+    color: #e4b373;
+    font-weight: 500;
+    background-color: #fff;
+    border-color: darkgray;
+  }
 }
 
 /* TODO LANDSCAPE PHONES */
@@ -1228,6 +1239,18 @@ body {
   #detail_mobile .deskripsi span {
     font-size: 14px;
     font-weight: 400;
+  }
+
+  div.modal-body li {
+    color: #000000;
+    font-weight: 500;
+  }
+
+  div.modal-body li.active {
+    color: #e4b373;
+    font-weight: 500;
+    background-color: #fff;
+    border-color: darkgray;
   }
 }
 

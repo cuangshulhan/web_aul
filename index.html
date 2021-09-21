@@ -61,7 +61,7 @@
 	<div class="col-md-2">
 		<div class="row justify-content-end">
 			<form>
-		      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+		      <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="cariData">
 		      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
 		    </form>
 	    </div>
@@ -92,19 +92,19 @@
 	<center>
 	  	<div id="bottom_navigation_bar2" class="row align-items-center">
 		  	<div class="col-4">
-		  		<a href="" type="button" class="active" data-toggle="modal" data-target="#sub_master">
+		  		<a href="" class="active">
 		          <img src="img/home2.png"> <br>
 		          <label>Beranda</label>
 		        </a>
 		  	</div>
 		  	<div class="col-4">
-		  		<a href="" type="button" data-toggle="modal" data-target="#sub_master">
+		  		<a href="" type="button" data-toggle="modal" data-target="#pencarian">
 		          <img src="img/search.png"> <br>
 		          <label>Pencarian</label>
 		        </a>
 		  	</div>
 		  	<div class="col-4">
-		  		<a href="" type="button" data-toggle="modal" data-target="#sub_master">
+		  		<a href="" type="button" data-toggle="modal" data-target="#sub_menu">
 		          <img src="img/menu.png"> <br>
 		          <label>Menu</label>
 		        </a>
@@ -462,6 +462,100 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="pencarian" tabindex="-1" role="dialog" aria-labelledby="ModalCari" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<ul class="list-group">
+				<li class="list-group-item active" style="margin-bottom: 10px;">
+					<input type="text" id="cariData">
+				</li>	
+			</ul>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	  </div>
+	</div>
+</div> -->
+
+<div class="modal fade" id="pencarian" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		<div class="modal-body">
+			<fieldset>
+				<div class="input-group">
+					<input type="text" class="form-control" autocomplete="off" id="cariData" placeholder="Isi pencarian...">
+					<div class="input-group-append">
+						<span class="input-group-btn" id="button-addon2">
+							<button  id="cari" class="btn btn-default" title="Cari Data">Cari</button>
+						</span>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+		<div class="modal-footer">
+			
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="sub_menu" tabindex="-1" role="dialog" aria-labelledby="ModalMenu" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Menu</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+			<ul class="list-group">
+				<a href="" role="menuitem" tabindex="-1" >
+				  <li class="list-group-item active" style="margin-bottom: 10px;">
+					Sepatu
+				  </li>
+				</a>
+				<a href="" role="menuitem" tabindex="-1" >
+				  <li class="list-group-item" style="margin-bottom: 10px;">
+					Kaos Kaki
+				  </li>
+				</a>
+				<a href="" role="menuitem" tabindex="-1" >
+				  <li class="list-group-item" style="margin-bottom: 10px;">
+					Tas
+				  </li>
+				</a>
+				<a href="" role="menuitem" tabindex="-1" >
+				  <li class="list-group-item" style="margin-bottom: 10px;">
+					Dompet
+				  </li>
+				</a>
+				<a href="" role="menuitem" tabindex="-1" >
+					<li class="list-group-item" style="margin-bottom: 10px;">
+					  Kosmetik
+					</li>
+				  </a>
+			</ul>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+	  </div>
 	</div>
 </div>
 
